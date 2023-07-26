@@ -8,7 +8,7 @@ steps:
     retryCountOnTaskFailure: 3
     inputs:
       packageType: runtime
-      version: 7.0.0
+      version: 7.0.x
       
   - task: nventiveCanaryUpdater@5
     condition: eq(variables['IsCanaryBranch'], true)
