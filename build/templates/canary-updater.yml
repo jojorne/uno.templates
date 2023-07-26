@@ -18,7 +18,10 @@ steps:
       usePrivateFeed: false
       mergeBranch: ${{ parameters.MergeBranch }}
       branchToMerge: main
-      nugetUpdaterVersion: 2.3.0-alpha.55
-      packageAuthor: 'nventive,unoplatform,uno platform'
+      nugetUpdaterVersion: 2.3.0-alpha.45
+      packageAuthor: 'nventive,Uno Platform'
+      nugetVersion: legacy/4x
+      useVersionOverrides: true
+      versionOverridesFile: '$(build.sourcesdirectory)/build/uno-4x-overrides.json'
       summaryFile: '$(Build.ArtifactStagingDirectory)/Canary.md'
       projectProperties: 'propertiesToUpdate.json'
