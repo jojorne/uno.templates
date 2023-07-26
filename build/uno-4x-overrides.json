@@ -143,5 +143,86 @@
   {
     "PackageId": "Uno.Microsoft.Toolkit.Uwp.UI.Controls",
     "UpdatedVersion": "(,7.1.999]"
+  },
+
+  //
+  // Uno.Extensions
+  //
+
+  {
+    "PackageId": "Uno.Extensions.Configuration",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Hosting",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Hosting.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Http",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Http.Refit",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Http.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Localization",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Localization.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Logging.Serilog",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Logging.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Navigation",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Navigation.Toolkit.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Navigation.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Reactive",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Reactive.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Serialization",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Serialization.Http",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Serialization.Refit",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Toolkit.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
   }
 ]
