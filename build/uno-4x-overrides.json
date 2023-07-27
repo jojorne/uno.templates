@@ -224,5 +224,17 @@
   {
     "PackageId": "Uno.Extensions.Toolkit.WinUI",
     "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Authentication",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Authentication.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
+  },
+  {
+    "PackageId": "Uno.Extensions.Authentication.MSAL.WinUI",
+    "UpdatedVersion": "(,2.99.0-dev.999]"
   }
 ]
