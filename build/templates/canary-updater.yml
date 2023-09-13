@@ -2,13 +2,13 @@ parameters:
   MergeBranch: true
 
 steps:
-  - task: UseDotNet@2
-    condition: eq(variables['IsCanaryBranch'], true)
-    displayName: 'Use .NET runtime 7.0.100'
-    retryCountOnTaskFailure: 3
-    inputs:
-      packageType: runtime
-      version: 7.0.x
+  # - task: UseDotNet@2
+  #   condition: eq(variables['IsCanaryBranch'], true)
+  #   displayName: 'Use .NET runtime 7.0.100'
+  #   retryCountOnTaskFailure: 3
+  #   inputs:
+  #     packageType: runtime
+  #     version: 7.0.x
       
   - task: nventiveCanaryUpdater@6
     condition: eq(variables['IsCanaryBranch'], true)
@@ -20,7 +20,7 @@ steps:
       branchToMerge: legacy/4x
       nugetUpdaterVersion: 2.3.0-alpha.57
       packageAuthor: 'nventive,Uno Platform'
-      nugetVersion: dev
+      nugetVersion: legacy/4x
       useVersionOverrides: true
       versionOverridesFile: '$(build.sourcesdirectory)/build/uno-4x-overrides.json'
       summaryFile: '$(Build.ArtifactStagingDirectory)/Canary.md'
