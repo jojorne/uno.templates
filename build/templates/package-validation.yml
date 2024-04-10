@@ -75,7 +75,7 @@ steps:
 
       cd UnoApp1
 
-      & dotnet build UnoApp1.sln "/bl:$(build.artifactstagingdirectory)\$(Agent.JobName).binlog"
+      & dotnet build UnoApp1.sln "/bl:$(build.artifactstagingdirectory)\$(Agent.JobName).binlog" /p:TreatWarningsAsErrors=true
       if ($LASTEXITCODE -ne 0)
       {
           throw "Exit code must be zero."
