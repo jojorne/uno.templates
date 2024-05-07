@@ -80,8 +80,15 @@
         {
           "condition": "(!globalJson)",
           "exclude": [
-            "global.json"
+            "global.json",
+            "vs-workaround.config"
           ]
+        },
+        {
+          "condition": "globalJson",
+          "rename": {
+            "vs-workaround.config": "nuget.config"
+          }
         }
       ]
     }
